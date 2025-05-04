@@ -1,0 +1,6 @@
+unsloth
+torch
+kokoro
+python-dotenv
+requests
+Django
