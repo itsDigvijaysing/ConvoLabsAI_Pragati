@@ -26,30 +26,14 @@ To provide real-time, interactive, and personalized learning via a simple phone 
 - Rural and underserved communities
 - Students with no access to internet, formal tutoring, or local-language content
 
-## Tech Stack
-
 ### AI Models
 - Large Language Models: Mistral, LLaMA
 - STT (Speech-to-Text): Mozilla DeepSpeech, Whisper
 - TTS (Text-to-Speech): Coqui TTS, Festival
 
-### Backend & Orchestration
-- Python Frameworks: Flask / FastAPI
-- Session Management: Redis, PostgreSQL
-- Context Handling: LangChain / LlamaIndex
-- Retrieval-Augmented Generation (RAG): Haystack + FAISS
-- Containerization & Scaling: Docker, Kubernetes
-- Hosting: AWS (Lambda, Spot Instances, or local servers)
-
 ### Telephony Integration
 - Open-source: Asterisk, FreeSWITCH
 - Commercial APIs (optional): Twilio, Exotel
-
-### Frontend
-- UI: ReactJS
-
-### Database
-- MongoDB
 
 ## High-Level Solution Architecture
 
@@ -75,11 +59,7 @@ To provide real-time, interactive, and personalized learning via a simple phone 
 
 | Type              | Examples                                                 |
 |-------------------|----------------------------------------------------------|
-| Curriculum        | NCERT, CBSE public domain content                        |
-| STT/TTS           | CMU Wilderness, OpenSLR speech datasets                  |
-| Language          | AI4Bharat corpora, IndicNLP                              |
-| Synthetic QA      | Generated from textbooks using GPT and scripts           |
-| User Data         | With consent, collected during pilot for personalization |
+| Curriculum        | CBSE public domain content                               |
 
 ## Cloud Dependency & Optimization
 
@@ -98,14 +78,3 @@ The solution is cloud-based to run LLMs and STT/TTS models efficiently.
 - Real-time LLM-powered conversations
 - Extensible to more subjects and languages
 - Minimal cost per interaction enables mass-scale rollout
-
-## Unique Value Proposition
-
-| Feature                     | Description                                         |
-|-----------------------------|-----------------------------------------------------|
-| No Internet or App Needed   | Toll-free access from any phone                    |
-| Multilingual Support        | Understands and responds in regional languages     |
-| Real-Time Tutoring          | Personalized, context-aware conversations          |
-| Highly Scalable             | Containerized backend, cloud-based infrastructure  |
-| Open Source & Low Cost      | Affordable, no license fees                        |
-| Aligned with NEP 2020       | Supports education equity and Digital India goals  |
