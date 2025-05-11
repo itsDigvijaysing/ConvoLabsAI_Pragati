@@ -1,5 +1,5 @@
 ---
-base_model: unsloth/llama-3.2-1b-unsloth-bnb-4bit
+base_model: mistralai/Mistral-7B-Instruct-v0.3
 library_name: peft
 ---
 
@@ -199,4 +199,4 @@ Carbon emissions can be estimated using the [Machine Learning Impact calculator]
 [More Information Needed]
 ### Framework versions
 
-- PEFT 0.14.0
+- PEFT 0.15.2
