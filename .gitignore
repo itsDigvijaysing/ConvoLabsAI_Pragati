@@ -2,6 +2,7 @@
 
 # Backend
 /ConvoLabsAI_Backend/myproject/myapp/lora_model
+ConvoLabsAI_Backend/myproject/myapp/lora_model
 
 # dependencies
 convolabsai_frontend/node_modules
