@@ -1,0 +1,26 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Backend
+/ConvoLabsAI_Backend/myproject/myapp/lora_model
+
+# dependencies
+convolabsai_frontend/node_modules
+convolabsai_frontend/.pnp
+.pnp.js
+
+# testing
+convolabsai_frontend/coverage
+
+# production
+convolabsai_frontend/build
+
+# misc
+convolabsai_frontend/.DS_Store
+convolabsai_frontend/.env.local
+convolabsai_frontend/.env.development.local
+convolabsai_frontend/.env.test.local
+convolabsai_frontend/.env.production.local
+
+convolabsai_frontend/npm-debug.log*
+convolabsai_frontend/yarn-debug.log*
+convolabsai_frontend/yarn-error.log*
